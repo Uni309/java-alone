@@ -1,0 +1,16 @@
+public static void main(String[] args) {
+  byte a=100; //1byte
+  short b=200; //2byte
+  
+  char c1='A'; //2byte
+  //문자는 작은따음표('')를 쓴다
+  char c2='\u0041'; //유니코드 표현법
+  char c3=65; //내부적으로 정수로 저장되기 때문에 오류가 나지않음
+  
+  int d=1000; //4byte
+  long e=123456789L; //8byte
+  
+  float=3.14f; //4yte
+  double g=3.141592; //8byte
+  
+  boolean h=true; //1byte
