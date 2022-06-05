@@ -1,0 +1,13 @@
+public class uni {
+  public static void main(String[] args) {
+    double kcal = calculateWalkingKcal(5000);
+    System.out.println("소모 칼로리: "+kcal+"kcal");
+  }
+
+  public static double calculateWalkingKcal(int walkingCount) {
+    return walkingCount * 0.02;
+  }
+}
+//한 걸음마다 0.02kcal가 소모된다.
+//하루 동안 5000걸음을 걸었을때 소모된 칼로리량은?
+//출력 결과 : 소모 칼로리 : 100.0 kcal
